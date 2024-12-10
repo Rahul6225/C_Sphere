@@ -26,7 +26,7 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
 // Allowing cross-origin requests for your React client ->
 // Enable CORS with specific origin and credentials
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow only this origin
+  origin: 'https://c-sphere.vercel.app', // Allow only this origin
   credentials: true, // Allow cookies and other credentials
 }));
 app.use(cookieParser());
