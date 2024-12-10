@@ -1,0 +1,111 @@
+main {
+  background-color: #f2f0f4;
+  padding: 40px;
+  border-radius: 20px;
+  margin: 0px 140px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Attendance {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+main h1 {
+  color: black;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.std-card {
+  color: white;
+  background-color: #165a84;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.std-card img {
+  width: 100px;
+}
+
+.attendance-dropdown {
+  padding: 8px 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.attendance-dropdown:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit-btn-admin-div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-btn-admin {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #0e2a4d;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.submit-btn-admin:hover {
+  background-color: #256389;
+}
+
+.call-to-act {
+  background-image: linear-gradient(to right ,#99987D, #FFFDD0);
+  padding: 60px 0px;
+  border-radius: 20px;
+  margin: 0px 140px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#btn-j{
+  border-radius: 20px;
+}
+
+.call-to-act h2 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+.call-to-act p {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+.call-to-act button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0e2a4d;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}

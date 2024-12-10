@@ -1,0 +1,101 @@
+.edit-profile-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image-container {
+  position: relative;
+  width: 150px; /* Adjust based on your design */
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  margin-left: 175px;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.edit-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.profile-image-container:hover .edit-overlay {
+  opacity: 1;
+}
+
+.edit-icon {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.image-upload {
+  display: none; /* Hide the default file input */
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-actions button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}

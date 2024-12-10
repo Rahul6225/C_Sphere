@@ -1,0 +1,60 @@
+.Performance{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 40px 120px;
+    margin-top: 10px;
+    gap: 40px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.Heading{
+    color: white;
+    text-align: center;
+}
+
+.search-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.search-bar{
+    border-radius: 5px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+    border-color: #007BFF; /* Change border color */
+    box-shadow: 0 0 5px rgb(241, 241, 241); /* Add a glow effect */
+    outline: none; /* Remove default focus outline */
+}
+.search-button {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 4px; /* Add some padding */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    margin-left: 10px; /* Add spacing between the search bar and button */
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+.search-button:active {
+    background-color: #003f7f; /* Even darker blue when clicked */
+    transform: scale(0.95); /* Slightly shrink button on click */
+}
+.PieChart{
+    padding-left: 30px;
+}

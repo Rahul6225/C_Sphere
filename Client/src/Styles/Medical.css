@@ -1,0 +1,55 @@
+.medical-form {
+    max-width: 600px;
+    margin: 75px 480px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    box-shadow: inset 1px 1px 0px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1ff;
+  }
+  
+  .medical-form div {
+    margin-bottom: 10px;
+  }
+  
+  .medical-form label {
+    display: block;
+    
+    margin-bottom: 5px;
+  }
+  
+  .medical-form input,
+  .medical-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .medical-form input[type="date"] {
+    color: #333; 
+  }
+  
+  .medical-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  
+  .medical-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .medical-form textarea {
+    resize: vertical; 
+  }
+  

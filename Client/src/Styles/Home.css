@@ -1,0 +1,132 @@
+/* Welcome to Campus Sphere */
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding: 15px;
+}
+
+.text-section {
+  margin: 0;
+  font-size: 80px;
+  max-width: 30%;
+  color: #fff;
+}
+
+.text-section .heading-1 {
+  color: white;
+}
+
+.text-section .heading-2 {
+  color: #FF6F00; /* Orange color for "Campus Sphere" */
+  justify-content: unset;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+/* Our Courses */
+
+.courses-section {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.courses-section h2 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 20px; */
+}
+
+.course-card {
+  background-image: linear-gradient(to left, #FFFDD0,#99987D);
+  border-radius: 20px;
+  padding: 60px 0px;
+  width: 20%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.course-card:hover {
+  cursor: pointer;
+  transform: translateY(-10px); /* Elevate the card on hover */
+}
+
+.course-card img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.course-card h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+/* Stats Section */
+
+.stats-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  border-radius: 15px 15px 0 0;
+  margin: 0px 150px;
+
+  margin-top: 100px;
+  
+  color: white;
+  background-color: #032c46;
+}
+
+.stats h2 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+/* Call to action */
+
+.call-to-action {
+  /* background-color: #bfb188; */
+  background-image: linear-gradient(to right, #eae8be,#717059);
+  padding: 70px;
+  text-align: center;
+
+  border-radius: 0 0 15px 15px;
+
+  margin: 0px 150px;
+  margin-bottom: 30px;
+}
+
+.call-to-action h2 {
+  font-size: 35px;
+}
+
+.call-to-action p {
+  font-size: 20px;
+}
+
+.ria-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0e2a4d;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
